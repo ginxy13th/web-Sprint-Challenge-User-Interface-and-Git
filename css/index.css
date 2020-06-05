@@ -96,6 +96,14 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-top-content .text-container{
+    width: 98%;
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin:1rem;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -109,14 +117,60 @@ p {
 .middle-content-about{
     display:inline-flex;
     flex-wrap: wrap;
+    justify-content:space-between;;
+    align-items:space-between;
 }
 
 .strategy,.how-we-work,.places-we-work,.collaboration{
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    width:50%
+    width:48%;
+}
+
+.strategy h2{
+    padding: 1rem 0;
+}
+
+.how-we-work h2{
+    padding: 1rem 0;
+}
+
+.places-we-work h2{
+    padding: 1rem 0;
+}
+
+.collaboration h2{
+    padding:1rem 0;
+}
+
+.strategy a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
+}
+
+.how-we-work a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
+}
+
+.places-we-work a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
+}
+
+.collaboration a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
 }
 
 .middle-content .boxes {
@@ -188,6 +242,17 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom-content{
+    border-top: dotted 1px grey;
+    margin:2rem;
+}
+
+.about-bottom-content-text{
+    display:flex;
+    flex-direction:column;
+    margin:2rem;
 }
 
 footer {
