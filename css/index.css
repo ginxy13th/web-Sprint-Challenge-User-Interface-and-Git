@@ -71,6 +71,13 @@ p {
     margin: 0 auto;
 }
 
+.header-nav{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding:1.5rem 0rem;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,10 +86,22 @@ p {
     border-bottom: 1px dashed black;
 }
 
+#jumbo{
+    padding: 1.5rem 0rem;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-top-content .text-container{
+    width: 98%;
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin:1rem;
 }
 
 .middle-content {
@@ -93,6 +112,65 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content-about{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content:space-between;;
+    align-items:space-between;
+}
+
+.strategy,.how-we-work,.places-we-work,.collaboration{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:48%;
+}
+
+.strategy h2{
+    padding: 1rem 0;
+}
+
+.how-we-work h2{
+    padding: 1rem 0;
+}
+
+.places-we-work h2{
+    padding: 1rem 0;
+}
+
+.collaboration h2{
+    padding:1rem 0;
+}
+
+.strategy a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
+}
+
+.how-we-work a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
+}
+
+.places-we-work a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
+}
+
+.collaboration a{
+    padding:.5rem;
+    border: solid black 1px;
+    border-radius: 15%;
+    margin:1rem 0;
 }
 
 .middle-content .boxes {
@@ -112,6 +190,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color:forestgreen;
+}
+
+#box7{
+    background-color:darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +242,17 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom-content{
+    border-top: dotted 1px grey;
+    margin:2rem;
+}
+
+.about-bottom-content-text{
+    display:flex;
+    flex-direction:column;
+    margin:2rem;
 }
 
 footer {

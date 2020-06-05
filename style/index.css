@@ -104,8 +104,8 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color:black;
     color: white;
     display: flex;
     align-items: center;
