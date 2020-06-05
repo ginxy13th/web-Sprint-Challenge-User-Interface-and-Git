@@ -106,6 +106,19 @@ p {
     margin-bottom: 0;
 }
 
+.middle-content-about{
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+
+.strategy,.how-we-work,.places-we-work,.collaboration{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    width:50%
+}
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
